@@ -1,4 +1,4 @@
-package buggy_ttt;
+﻿package buggy_ttt;
 
 /**
  * Represents Tic Tac Toe Board. The main data strcutre inside is a two
@@ -11,6 +11,7 @@ public class TicTacToeBoard {
 
 	/** A two-dim array of characters */
 	private char[][] board;
+	/** The winning symbol of this round */
 	private char winningSymbol;
 
 	public static final int BOARD_SIZE = 3;
